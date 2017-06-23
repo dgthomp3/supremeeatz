@@ -1,0 +1,24 @@
+h1 {
+	color: #42f44e;
+	text-align: center;
+}
+
+h3 {
+	color: red;
+}
+
+.top {
+	background: #42f44e;
+	color: white;
+	text-align: center;
+	width: fill;
+}
+
+.navbar {
+	padding: 60px;
+	cursor: pointer;
+}
+
+#eats {
+	color: red;
+}
