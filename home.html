@@ -9,17 +9,22 @@
 	<body width="100%">
 		<h1>Welcome to <span id="eats">Supreme</span> Eatz!</h1>
 		<h2 class="top">
+			<span class="navbar">Home</span>
 			<span class="navbar">Menu</span>
-			<span class="navbar">Place Your Order</span>
-			<span class="navbar">Contact</span>
+			<span class="navbar">
+				<a href="order.html">Place Your Order</a>
+			</span>
+			<span class="navbar">
+				<a href="contact.html">Contact</a>
+			</span>
 		</h2>
-  		<h3 onclick="printItem()">Upcoming Events</h3>
+  		<h3>Upcoming Events</h3>
   		<h4 class="events">
   			Supreme Brunch -- June 24, 2017 -- 11:00AM - 4:00PM
   		</h4>
   		<h3>Previous Events</h3>
-  		<div ng-repeat="item in items">
-  			<img src="{{item.data}}" height="125" width="50"/>
-  		</div>
+  		<div>
+  			<img src="showPictures();"/>
+    	</div>
 	</body>
 </html>
