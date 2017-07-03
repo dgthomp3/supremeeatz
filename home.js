@@ -3,12 +3,11 @@ function doStuff(){
 }
 
 var pictures = [
-	"https://picturethismaths.files.wordpress.com/2016/03/fig6bigforblog.png?w=419&h=364",
-
+	"http://i.imgur.com/2ohxihR.jpg",
 ];
 
 function showPictures(){
-	for(i = 0, len = pictures.length, i++) {
-		document.write("<img src=" + pictures[i] + "width="160" height="120"/>");
+	for(i = 0; i < pictures.length; i++){
+		document.write("<img src=\"" + pictures[i] +"\" width=\"240\" length=\"160\" />");
 	}
 }
